@@ -41,7 +41,8 @@ function Results() {
             {products?.map((product) => {
               // console.log(product);
 
-              return <ProductCard key={product.id} product={product} />;
+              return <ProductCard key={product.id} product={product} 
+              renderAdd={true}/>;
             })}
           </div>
         </section>
